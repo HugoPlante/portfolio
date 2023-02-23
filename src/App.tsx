@@ -1,9 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import Porfolio from "./pages/Porfolio";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
-  return <Porfolio />;
+  return (
+    <div>
+      <Portfolio />
+    </div>
+  );
 }
 
 export default App;
