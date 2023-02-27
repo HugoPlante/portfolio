@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../components/Contact";
-import Description from "../components/Description";
+import AboutMe from "../components/AboutMe";
 import Experiences from "../components/Experiences";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar/Navbar";
@@ -11,7 +11,7 @@ const Porfolio = () => {
       <Navbar />
       <Header />
       <div className="flex flex-col space-y-12">
-        <Description />
+        <AboutMe />
         <Experiences />
         <Contact />
       </div>
