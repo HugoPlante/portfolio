@@ -7,10 +7,10 @@ import Navbar from "../components/Navbar/Navbar";
 
 const Porfolio = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-background-main bg-[url('/src/assets/images/profile/bg-vertical.svg')] md:bg-[url('/src/assets/images/profile/bg-horizontal.svg')]">
       <Navbar />
       <Header />
-      <div className="flex flex-col space-y-12">
+      <div className="flex flex-col">
         <AboutMe />
         <Experiences />
         <Contact />
