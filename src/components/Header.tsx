@@ -5,13 +5,13 @@ const Header = () => {
   return (
     <section
       id="header"
-      className="flex flex-col items-center md:flex-row min-h-screen self-center mt-20 md:mt-0"
+      className="flex flex-col items-center md:flex-row min-h-[50vh] self-center mt-20 md:mt-0 mb-8 sm:h-auto "
     >
       <Avatar />
       <div className="flex flex-col pt-8 md:pl-8">
         <h1 className="pb-4">Hugo Plante</h1>
         <p className="pb-4">
-          Programmeur full-stack avec un très grand intérêt pour React
+          Programmeur full-stack avec un très grand intérêt pour le web
         </p>
         <div className="flex flex-row space-x-4 justify-center">
           <a href="https://github.com/HugoPlante" target="_blank">

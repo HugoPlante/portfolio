@@ -3,23 +3,14 @@ import Section from "./Section";
 
 const Contact = () => {
   return (
-    <Section id="contact" title="Me contacter">
+    <Section id="contact" title="Me contacter" background={"main"}>
       <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Si vous avez une opportunité à me proposer, n'hésitez pas à me
+          rejoindre soit par linkedIn ou par courriel à l'addresse suivante:
+          hugoplante@hotmail.fr
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat
-        </p>
+        
       </div>
     </Section>
   );
