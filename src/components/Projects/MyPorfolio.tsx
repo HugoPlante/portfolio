@@ -3,7 +3,7 @@ import html5 from "/src/assets/images/skills/html.png";
 import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
 import tailwind from "/src/assets/images/skills/tailwind.png";
-import Link from "../Navbar/Link";
+import porfolioUrl from "../../assets/images/projects/porfolio.png";
 
 const MyPorfolio = () => {
   return (
@@ -45,7 +45,7 @@ const MyPorfolio = () => {
         <div className="self-center ">
           <img
             loading="lazy"
-            src="/src/assets/images/projects/porfolio.png"
+            src={porfolioUrl}
             alt="ufood screnshot"
             className="self-center"
           ></img>

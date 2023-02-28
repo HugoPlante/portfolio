@@ -3,6 +3,7 @@ import html5 from "/src/assets/images/skills/html.png";
 import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
 import tailwind from "/src/assets/images/skills/tailwind.png";
+import ufooUrl from "../../assets/images/projects/ufood.webp";
 
 const UFood = () => {
   return (
@@ -11,8 +12,8 @@ const UFood = () => {
         <div className="self-center ">
           <img
             loading="lazy"
-            src="/src/assets/images/projects/ufood.webp"
-            alt="ufood screnshot"
+            src={ufooUrl}
+            alt="ufood screenshot"
             className="self-center"
           ></img>
         </div>
