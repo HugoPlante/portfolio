@@ -3,7 +3,7 @@ import html5 from "/src/assets/images/skills/html.png";
 import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
 import tailwind from "/src/assets/images/skills/tailwind.png";
-import porfolioUrl from "../../assets/images/projects/porfolio.png";
+import porfolioUrl from "../../assets/images/projects/porfolio.webp";
 
 const MyPorfolio = () => {
   return (
