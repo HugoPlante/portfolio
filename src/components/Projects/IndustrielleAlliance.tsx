@@ -2,37 +2,41 @@ import React from "react";
 import html5 from "/src/assets/images/skills/html.png";
 import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
-import tailwind from "/src/assets/images/skills/tailwind.png";
-import ufooUrl from "../../assets/images/projects/ufood.webp";
+import industrielleAllianceUrl from "../../assets/images/projects/industrielleAlliance.webp";
 
-const UFood = () => {
+const IndustrielleAlliance = () => {
   return (
     <div className="flex flex-col md:flex-row ">
       <div className="flex-[50%] md:pr-4 ">
         <div className="self-center ">
           <img
             loading="lazy"
-            src={ufooUrl}
+            src={industrielleAllianceUrl}
             alt="ufood screenshot"
             className="self-center"
           ></img>
         </div>
       </div>
       <div className="flex-[50%]">
-        <p className="self-start text-2xl font-extrabold">UFood</p>
+        <p className="self-start text-2xl font-extrabold">
+          Industrielle Alliance
+        </p>
         <p>
-          Dans le cours Développement d'application web nous devions faire, en
-          équipe de 6, une application pour trouver des restaurants à proximité
-          et leur écrire une évaluation.
+          Pendant mon parcours scolaire, j'ai effectué trois stages pendant les
+          2 dernières années. Les deux premiers stages était un poste de
+          développeur back-end. Je travaillais sur l'api (back-end for
+          front-end) pour la nouvelle application React. L'api était écrit en C#
+          avec .Net Core et stockait les données dans une base de données SQL.
         </p>
         <br />
         <p>
-          Le projet a été réalié avec Vue.js 3 et Tailwind CSS. Nous étions
-          évalués selon les fonctionnalités réalisées, la propreté du code et
-          sur l'architecture du projet.
+          Mon troisième stage chez Industrielle Alliance était un poste de
+          développeur React. J'ai participé à la création de la nouvelle
+          application pour la vente d'assurance. Le projet utilisait React,
+          Redux, Typescript, Tailwind CSS et Storybook.
         </p>
         <div className="flex flex-row space-x-2 items-center">
-          <p>Fait avec : </p>
+          <p>Technologies utilisées : </p>
           <img
             src={html5}
             alt="html5"
@@ -54,17 +58,10 @@ const UFood = () => {
             title="Typescript"
             loading="lazy"
           />
-          <img
-            src={tailwind}
-            className="w-12 h-12"
-            alt="tailwindcss"
-            title="tailwind css"
-            loading="lazy"
-          />
         </div>
       </div>
     </div>
   );
 };
 
-export default UFood;
+export default IndustrielleAlliance;

@@ -8,10 +8,9 @@ import porfolioUrl from "../../assets/images/projects/porfolio.webp";
 const MyPorfolio = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row ">
-      <div className="flex-[50%]">
+      <div className="flex-[50%] md:mr-4">
         <p className="self-start text-2xl font-extrabold">Mon porfolio</p>
         <p>Ce site est fait completement par moi même !</p>
-
         <br />
         <p>
           J'ai utilisé React ainsi que tailwind pour découper les sections en
@@ -35,10 +34,34 @@ const MyPorfolio = () => {
 
         <div className="flex flex-row space-x-2 items-center">
           <p>Fait avec : </p>
-          <img src={html5} alt="html5" className="w-8 h-8" />
-          <img src={css3} alt="css3" className="w-8 h-8" />
-          <img src={typescript} alt="typescript" className="w-8 h-8" />
-          <img src={tailwind} className="w-12 h-12" alt="tailwindcss" />
+          <img
+            src={html5}
+            alt="html5"
+            className="w-8 h-8"
+            title="HTML5"
+            loading="lazy"
+          />
+          <img
+            src={css3}
+            alt="css3"
+            className="w-8 h-8"
+            title="CSS3"
+            loading="lazy"
+          />
+          <img
+            src={typescript}
+            alt="typescript"
+            className="w-8 h-8"
+            title="Typescript"
+            loading="lazy"
+          />
+          <img
+            src={tailwind}
+            className="w-12 h-12"
+            alt="tailwindcss"
+            title="tailwind css"
+            loading="lazy"
+          />
         </div>
       </div>
       <div className="flex-[50%] md:pr-4 ">
