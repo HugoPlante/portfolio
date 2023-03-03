@@ -1,27 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Section from "./Section";
 
 const AboutMe = () => {
+  const { t } = useTranslation("aboutMe");
+
   return (
     <Section id="description" title="" alignement="left" background="variant">
       <div className="lg:px-72">
-        <p className="text-2xl">Salut !</p>
+        <p className="text-2xl">{t("welcome")}</p>
         <br />
-        <p>
-          Je suis un programmeur full-stack passionné par la création
-          d'interfaces web et d'API. Diplômé en informatique en 2021, j'ai
-          acquis des compétences en développement web et en création
-          d'interfaces utilisateur conviviales.
-        </p>
+        <p>{t("part1")}</p>
         <br />
-        <p>
-          Je conçois et mets en œuvre des pages web esthétiques et
-          fonctionnelles. Mes compétences en développement web me permettent de
-          contribuer de manière significative à tout projet de développement
-          web.
-        </p>
+        <p>{t("part2")}</p>
         <br />
-        <p>Merci de visiter mon portfolio !</p>
+        <p>{t("thanks")}</p>
       </div>
     </Section>
   );

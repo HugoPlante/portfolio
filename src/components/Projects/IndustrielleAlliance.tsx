@@ -3,8 +3,10 @@ import html5 from "/src/assets/images/skills/html.png";
 import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
 import industrielleAllianceUrl from "../../assets/images/projects/industrielleAlliance.webp";
+import { useTranslation } from "react-i18next";
 
 const IndustrielleAlliance = () => {
+  const { t } = useTranslation("experiences");
   return (
     <div className="flex flex-col md:flex-row ">
       <div className="flex-[50%] md:pr-4 ">
@@ -21,22 +23,12 @@ const IndustrielleAlliance = () => {
         <p className="self-start text-2xl font-extrabold">
           Industrielle Alliance
         </p>
-        <p>
-          Pendant mon parcours scolaire, j'ai effectué trois stages pendant les
-          2 dernières années. Les deux premiers stages était un poste de
-          développeur back-end. Je travaillais sur l'api (back-end for
-          front-end) pour la nouvelle application React. L'api était écrit en C#
-          avec .Net Core et stockait les données dans une base de données SQL.
-        </p>
+        <p>{t("IndustrielleAlliance.part1")}</p>
         <br />
-        <p>
-          Mon troisième stage chez Industrielle Alliance était un poste de
-          développeur React. J'ai participé à la création de la nouvelle
-          application pour la vente d'assurance. Le projet utilisait React,
-          Redux, Typescript, Tailwind CSS et Storybook.
-        </p>
+        <p>{t("IndustrielleAlliance.part2")}</p>
+        <br />
         <div className="flex flex-row space-x-2 items-center">
-          <p>Technologies utilisées : </p>
+          <p>{t("IndustrielleAlliance.techUsed")}</p>
           <img
             src={html5}
             alt="html5"

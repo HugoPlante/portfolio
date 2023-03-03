@@ -4,26 +4,21 @@ import css3 from "/src/assets/images/skills/css3.png";
 import typescript from "/src/assets/images/skills/typescript.png";
 import tailwind from "/src/assets/images/skills/tailwind.png";
 import porfolioUrl from "../../assets/images/projects/porfolio.webp";
+import { useTranslation } from "react-i18next";
 
 const MyPorfolio = () => {
+  const { t } = useTranslation("experiences");
   return (
     <div className="flex flex-col-reverse md:flex-row ">
       <div className="flex-[50%] md:mr-4">
-        <p className="self-start text-2xl font-extrabold">Mon porfolio</p>
-        <p>Ce site est fait completement par moi même !</p>
+        <p className="self-start text-2xl font-extrabold">Porfolio</p>
+        <p>{t("porfolio.part1")}</p>
         <br />
-        <p>
-          J'ai utilisé React ainsi que tailwind pour découper les sections en
-          composants réutilisables. Je me suis assuré que le site soit
-          "responsive" autant en affichage bureau qu'en affichage mobile.
-        </p>
+        <p>{t("porfolio.part2")}</p>
         <br />
+        <p>{t("porfolio.part3")}</p>
         <p>
-          La derniere version du site web est déployée automatiquement grâce à
-          Github actions et Github pages.
-        </p>
-        <p>
-          Vous pouvez voir le code ici :{" "}
+          {t("porfolio.githubLink")}{" "}
           <a
             className="hover:border-b-2 hover:border-b-white"
             href={"https://github.com/HugoPlante/porfolio"}
@@ -31,9 +26,9 @@ const MyPorfolio = () => {
             Github
           </a>
         </p>
-
+        <br />
         <div className="flex flex-row space-x-2 items-center">
-          <p>Fait avec : </p>
+          <p>{t("madeWith")}</p>
           <img
             src={html5}
             alt="html5"

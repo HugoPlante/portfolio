@@ -1,7 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Avatar from "./Avatar";
 
 const Header = () => {
+  const { t } = useTranslation("header");
   return (
     <section
       id="header"
@@ -10,9 +12,7 @@ const Header = () => {
       <Avatar />
       <div className="flex flex-col pt-8 md:pl-8">
         <h1 className="pb-4">Hugo Plante</h1>
-        <p className="pb-4">
-          Programmeur full-stack avec un très grand intérêt pour le web
-        </p>
+        <p className="pb-4">{t("bio")}</p>
         <div className="flex flex-row space-x-4 justify-center">
           <a href="https://github.com/HugoPlante" target="_blank">
             <img

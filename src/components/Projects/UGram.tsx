@@ -5,31 +5,22 @@ import typescript from "/src/assets/images/skills/typescript.png";
 import nodejs from "/src/assets/images/skills/nodejs.svg";
 import ugram from "../../assets/images/projects/ugram.webp";
 import amazons3 from "/src/assets/images/skills/amazons3.svg";
+import { useTranslation } from "react-i18next";
 
 const UGram = () => {
+  const { t } = useTranslation("experiences");
   return (
     <div className="flex flex-col-reverse md:flex-row ">
       <div className="flex-[50%] md:mr-4">
         <p className="self-start text-2xl font-extrabold">UGram</p>
-        <p>
-          Dans le cours Développement d'application web avancé nous devons
-          faire, en équipe de 6, une application dans le même genre que
-          Instagram. Nous devons faire le front-end et le back-end.
-        </p>
+        <p>{t("ugram.part1")}</p>
         <br />
-        <p>
-          Le front-end est fait avec React et Material UI. Notre back-end
-          utilise nodejs, Nestjs ainsi que MongoDB. Les deux sont écrits en
-          Typescript.
-        </p>
+        <p>{t("ugram.part2")}</p>
         <br />
-        <p>
-          Une partie importante du projet est d'utiliser AWS S3 pour héberger
-          les images et pour le déploiement continu. Le projet est en
-          développement actif.
-        </p>
+        <p>{t("ugram.part3")}</p>
+        <br />
         <div className="flex flex-row space-x-2 items-center">
-          <p>Fait avec : </p>
+          <p>{t("madeWith")}</p>
           <img
             src={html5}
             alt="html5"

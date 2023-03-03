@@ -1,0 +1,38 @@
+{
+  "header": {
+    "bio": "Full-stack programmer with a great interest in the web."
+  },
+  "aboutMe": {
+    "welcome": "Hello!",
+    "part1": "I am a passionate full-stack programmer specialized in creating web interfaces and APIs. Graduated in computer science in 2021, I have gained skills in web development and creating user-friendly interfaces.",
+    "part2": "I design and implement aesthetic and functional web pages. My web development skills enable me to contribute significantly to any web development project.",
+    "thanks": "Thank you for visiting my portfolio!"
+  },
+  "experiences": {
+    "ugram": {
+      "part1": "In the Advanced Web Application Development course at université Laval, we are required to develop an application in teams of 6 that is similar to Instagram. We need to develop both the front-end and back-end.",
+      "part2": "The front-end is built using React and Material UI. Our back-end utilizes nodejs, Nestjs, and MongoDB. Both are written in Typescript.",
+      "part3": "An important part of the project is to use AWS S3 to host the images and for continuous deployment. The project is currently under active development."
+    },
+    "ufood": {
+      "part1": "In the Web Application Development course at université Laval, we had to create an application, in a team of 6, to find nearby restaurants and write reviews for them.",
+      "part2": "The project was developed using Vue.js 3 and Tailwind CSS. We were evaluated based on the implemented functionalities, the cleanliness of the code, and the project architecture."
+    },
+    "porfolio": {
+      "part1": "This site is completely made by myself!",
+      "part2": "I used React as well as Tailwind to break down the sections into reusable components. I made sure that the site is responsive both in desktop and mobile display.",
+      "part3": "The latest version of the website is automatically deployed using Github actions and Github pages.",
+      "githubLink": "You can view the code here:"
+    },
+    "IndustrielleAlliance": {
+      "part1": "During my academic career, I completed three internships in the last 2 years. The first two internships were back-end developer positions. I worked on the API (back-end for front-end) for the new React application. The API was written in C# with .Net Core and stored data in a SQL database.",
+      "part2": "My third internship at Industrielle Alliance was a React developer position. I participated in creating a new application for insurance sales. The project used React, Redux, Typescript, Tailwind CSS, and Storybook.",
+      "techUsed": "Technologies used:"
+    }
+  },
+  "contact": {
+    "title": "Contact me!",
+    "part1": "If you have an opportunity to offer me, I am available to discuss it.",
+    "part2": "You can contact me either through LinkedIn or by email at the following address:"
+  }
+}
