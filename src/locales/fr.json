@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "home": "Accueil",
+    "aboutMe": "Description",
+    "experiences": "Expériences",
+    "contact": "Contact"
+  },
   "header": {
     "bio": "Programmeur full-stack avec un très grand intérêt pour le web"
   },
