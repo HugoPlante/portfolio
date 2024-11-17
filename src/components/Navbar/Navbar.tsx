@@ -1,20 +1,36 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Link from "./Link";
 
 const Navbar = () => {
   const { t } = useTranslation("navbar");
   return (
-    <nav className="fixed left-0 top-0 w-screen h-12 border-b-2 border-background-variant bg-background-main">
-      <ul
-        role="list"
-        className="flex flex-row justify-center items-center h-full space-x-2 md:space-x-4"
-      >
-        <Link text={t("home")} href={"#header"} />
-        <Link text={t("aboutMe")} href={"#description"} />
-        <Link text={t("experiences")} href={"#experiences"} />
-        <Link text={t("contact")} href={"#contact"} />
-      </ul>
+    <nav className="bg-[#0a1144]/80 p-4">
+      <div className="flex justify-center gap-4 md:gap-6 text-md sm:text-base md:text-xl">
+        <a
+          href="#accueil"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Accueil
+        </a>
+        <a
+          href="#experiences"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Projets
+        </a>
+        <a
+          href="#description"
+          className="text-white hover:text-blue-200 transition"
+        >
+          À Propos
+        </a>
+        <a
+          href="#contact"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Contact
+        </a>
+      </div>
     </nav>
   );
 };

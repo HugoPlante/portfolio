@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, Link } from "lucide-react";
+import React from "react";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -9,33 +9,30 @@ import {
   CardFooter,
 } from "../ui/card";
 
-const MyPorfolio = () => {
-  const { t } = useTranslation("experiences");
+const PasswordGenerator = () => {
   return (
     <Card className="bg-white/10 border-none shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-md">
       <CardHeader>
-        <CardTitle className="text-white">Portfolio Personnel</CardTitle>
+        <CardTitle className="text-white">Password Generator</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="flex justify-center items-center ">
-          <img
-            src="src\assets\images\projects\portfolio.webp"
-            alt="Portfolio Preview"
-            className="max-w-full w-full max-h-48 object-contain object-top rounded-lg mb-4"
-          />
-        </div>
+        <img
+          src="src\assets\images\projects\password-generator.webp"
+          alt="Password Generator Preview"
+          className="w-full h-48 object-cover object-top rounded-lg mb-4"
+        />
         <p className="text-blue-100">
-          Mon site portfolio personnel développé avec React et Tailwind CSS.
+          Un générateur de mots de passe sécurisé avec options personnalisables.
         </p>
       </CardContent>
       <CardFooter className="flex gap-4">
-        <a href="https://github.com/HugoPlante/portfolio">
+        <a href="https://github.com/HugoPlante/password-generator">
           <Button variant="secondary" size="sm">
             <Github className="w-4 h-4 mr-2" />
             GitHub
           </Button>
         </a>
-        <a href="https://hugoplante.com/">
+        <a href="https://hugoplante.github.io/password-generator/">
           <Button variant="secondary" size="sm">
             <ExternalLink className="w-4 h-4 mr-2" />
             Voir le site
@@ -46,4 +43,4 @@ const MyPorfolio = () => {
   );
 };
 
-export default MyPorfolio;
+export default PasswordGenerator;
