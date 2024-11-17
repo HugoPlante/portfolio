@@ -25,7 +25,7 @@ export default function PortfolioRevamp() {
     <div className="min-h-screen bg-[#1a237e]">
       {/* Navigation */}
       <nav className="bg-[#0a1144]/80 p-4">
-        <div className="flex justify-center gap-6 text-xl">
+        <div className="flex justify-center gap-4 md:gap-6 text-md sm:text-base md:text-xl">
           <a
             href="#accueil"
             className="text-white hover:text-blue-200 transition"
@@ -53,7 +53,6 @@ export default function PortfolioRevamp() {
         </div>
       </nav>
 
-      {/* Hero Section with Wave Background */}
       <div className="relative bg-gradient-to-b from-[#1a237e] to-[#0d47a1] overflow-hidden">
         <div
           className="absolute inset-0"
@@ -100,7 +99,7 @@ export default function PortfolioRevamp() {
           <h2 className="text-3xl font-bold text-center mb-12 text-white">
             Mes Projets
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 justify-items-center gap-y-4">
             <PasswordGenerator />
             <MyPorfolio />
           </div>

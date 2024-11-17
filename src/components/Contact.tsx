@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-800 text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-blue-300">
+        <h2 className="text-3xl font-bold text-center mb-12 text-white">
           Me Contacter
         </h2>
         <div className="max-w-md mx-auto">
@@ -26,10 +26,10 @@ const Contact = () => {
                   <Mail className="w-4 h-4" />
                 </Button>
                 <a
-                  href="mailto:contact@example.com"
+                  href="mailto:hugoplante@hotmail.fr"
                   className="text-blue-300 hover:underline"
                 >
-                  contact@example.com
+                  hugoplante@hotmail.fr
                 </a>
               </div>
               <div className="flex items-center gap-4">
@@ -44,7 +44,7 @@ const Contact = () => {
                   href="https://github.com/hugoplante"
                   className="text-blue-300 hover:underline"
                 >
-                  github.com/username
+                  github.com/hugoplante
                 </a>
               </div>
               <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ const Contact = () => {
                   href="https://linkedin.com/in/hugoplante"
                   className="text-blue-300 hover:underline"
                 >
-                  linkedin.com/in/username
+                  linkedin.com/in/hugoplante
                 </a>
               </div>
             </CardContent>

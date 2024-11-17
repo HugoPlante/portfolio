@@ -12,24 +12,21 @@ import {
 const MyPorfolio = () => {
   const { t } = useTranslation("experiences");
   return (
-    <Card className="bg-white/10 border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <Card className="bg-white/10 border-none shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-md">
       <CardHeader>
         <CardTitle className="text-white">Portfolio Personnel</CardTitle>
       </CardHeader>
       <CardContent>
-        <img
-          src="src\assets\images\projects\portfolio.webp"
-          alt="Portfolio Preview"
-          className="w-full h-48 object-cover object-top rounded-lg mb-4"
-        />
-        <p className="text-blue-100 mb-4">
+        <div className="flex justify-center items-center ">
+          <img
+            src="src\assets\images\projects\portfolio.webp"
+            alt="Portfolio Preview"
+            className="max-w-full w-full max-h-48 object-contain object-top rounded-lg mb-4"
+          />
+        </div>
+        <p className="text-blue-100">
           Mon site portfolio personnel développé avec React et Tailwind CSS.
         </p>
-        <div className="flex gap-2 mb-4">
-          <img src="/placeholder.svg" alt="Next.js" className="w-6 h-6" />
-          <img src="/placeholder.svg" alt="React" className="w-6 h-6" />
-          <img src="/placeholder.svg" alt="Tailwind" className="w-6 h-6" />
-        </div>
       </CardContent>
       <CardFooter className="flex gap-4">
         <a href="https://github.com/HugoPlante/portfolio">
