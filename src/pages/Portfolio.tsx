@@ -11,8 +11,8 @@ const Porfolio = () => {
       <Navbar />
       <Header />
       <div className="flex flex-col">
-        <AboutMe />
         <Experiences />
+        <AboutMe />
         <Contact />
       </div>
     </div>

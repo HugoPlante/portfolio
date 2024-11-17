@@ -8,6 +8,7 @@ import Section from "./Section";
 
 const Experiences = () => {
   const { t } = useTranslation("experiences");
+  /*
   return (
     <Section id="experiences" title={t("title")} background="main">
       <div className="flex flex-col space-y-8 ">
@@ -15,6 +16,14 @@ const Experiences = () => {
         <UFood />
         <MyPorfolio />
         <IndustrielleAlliance />
+      </div>
+    </Section>
+  );
+  */
+  return (
+    <Section id="experiences" title={t("title")} background="main">
+      <div className="flex flex-col space-y-8 ">
+        
       </div>
     </Section>
   );

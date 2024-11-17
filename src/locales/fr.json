@@ -15,7 +15,7 @@
     "thanks": "Merci de visiter mon portfolio !"
   },
   "experiences": {
-    "title": "Mes Expériences",
+    "title": "Mes Projets",
     "madeWith": "Fait avec : ",
     "ugram": {
       "part1": "Dans le cours Développement d'application web avancé à l'université Laval nous devons faire, en équipe de 6, une application dans le même genre que Instagram. Nous devons faire le front-end et le back-end.",

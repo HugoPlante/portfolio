@@ -4,7 +4,6 @@ interface SectionProps {
   id: string;
   children: React.ReactNode;
   title: string;
-  alignement?: "left" | "right";
   background: "main" | "variant";
 }
 
@@ -12,7 +11,6 @@ const Section = ({
   children,
   id,
   title,
-  alignement,
   background,
 }: SectionProps) => {
   return (
