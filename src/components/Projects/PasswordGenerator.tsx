@@ -8,7 +8,6 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
-import { siHtml5 } from "simple-icons";
 
 const PasswordGenerator = () => {
   return (

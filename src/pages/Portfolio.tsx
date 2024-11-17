@@ -1,22 +1,22 @@
-import React from "react";
-import Contact from "../components/Contact";
-import AboutMe from "../components/AboutMe";
-import Experiences from "../components/Experiences";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar/Navbar";
+import { Github, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Avatar from "@/components/Avatar";
+import Contact from "@/components/Contact";
+import AboutMe from "@/components/AboutMe";
+import PasswordGenerator from "@/components/Projects/PasswordGenerator";
+import MyPorfolio from "@/components/Projects/MyPorfolio";
+import Navbar from "@/components/Navbar/Navbar";
+import Header from "@/components/Header";
+import Projects from "@/components/Projects";
 
-const Porfolio = () => {
+export default function Portfolio() {
   return (
-    <div className="flex flex-col bg-background-main bg-[url('/src/assets/images/profile/bg-vertical.svg')] md:bg-[url('/src/assets/images/profile/bg-horizontal.svg')]">
+    <div className="min-h-screen bg-[#1a237e]">
       <Navbar />
       <Header />
-      <div className="flex flex-col">
-        <Experiences />
-        <AboutMe />
-        <Contact />
-      </div>
+      <Projects />
+      <AboutMe />
+      <Contact />
     </div>
   );
-};
-
-export default Porfolio;
+}

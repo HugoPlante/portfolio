@@ -1,8 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Section from "./Section";
 import { Mail, Github, Linkedin } from "lucide-react";
-import { siLinkedin } from "simple-icons";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 
