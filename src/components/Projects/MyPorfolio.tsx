@@ -8,6 +8,7 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import portfolioImgUrl from "../../assets/images/projects/portfolio.webp";
 
 const MyPorfolio = () => {
   const { t } = useTranslation("experiences");
@@ -19,7 +20,7 @@ const MyPorfolio = () => {
       <CardContent>
         <div className="flex justify-center items-center ">
           <img
-            src="src\assets\images\projects\portfolio.webp"
+            src={portfolioImgUrl}
             alt="Portfolio Preview"
             className="max-w-full w-full max-h-48 object-contain object-top rounded-lg mb-4"
           />

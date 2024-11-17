@@ -8,6 +8,7 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import generatorImgUrl from "../../assets/images/projects/password-generator.webp";
 
 const PasswordGenerator = () => {
   return (
@@ -17,7 +18,7 @@ const PasswordGenerator = () => {
       </CardHeader>
       <CardContent>
         <img
-          src="src\assets\images\projects\password-generator.webp"
+          src={generatorImgUrl}
           alt="Password Generator Preview"
           className="w-full h-48 object-cover object-top rounded-lg mb-4"
         />
